@@ -1,6 +1,6 @@
 # Os history
 
-It is website blog mappping most used  operation system history from 90 years to today as Microsoft Windows, Mac os X, Linux.
+It is website blog mappping most used  operation system history from 90 years to today as Microsoft Windows, Mac os X and Linux.
 
 Web was created to learn HTML, CSS and Bootsrap template framework and study purpose.
 
@@ -27,7 +27,7 @@ Web was created to learn HTML, CSS and Bootsrap template framework and study pur
 [] Create textation for Linux - https://en.wikipedia.org/wiki/Linux
 
 [] Find 7 desktop images for operation system and place it to carousel (each operation system) 
-  [] Images resize to 1024x768 or for old windows (3.0,95,98 800x600)
+  [] Images resize to 1024x768 or 800x600 for old windows (3.0,95,98)
   
 [] Find videos for each operation system showing desktop environment
 [] Create speak article audio for each operation system
