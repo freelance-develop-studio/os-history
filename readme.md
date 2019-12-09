@@ -9,7 +9,7 @@ Web was created to learn HTML, CSS and Bootsrap template framework and study pur
 [x] Create textation for Windows 3.0 
 [] Create textation for Windows 95
 [] Create textation for Windows 98
-[] Create textation for Windows 2000
+[x] Create textation for Windows 2000
 [] Create textation for Windows XP
 [] Create textation for Windows Vista
 [] Create textation for Windows 7
@@ -26,7 +26,8 @@ Web was created to learn HTML, CSS and Bootsrap template framework and study pur
 
 [] Crate textation for Linux - https://en.wikipedia.org/wiki/Linux
 
-[] Find 7 desktop images for operation system and place it to carousel (each operation system) - images resize to 1024x768 or for old windows (3.0,95,98 800x600)
+[] Find 7 desktop images for operation system and place it to carousel (each operation system) 
+  [] Images resize to 1024x768 or for old windows (3.0,95,98 800x600)
 [] Find videos for each operation system showing desktop environment
 [] Create speak article audio for each operation system
   [] First must filter text and remove citations ([\d])
