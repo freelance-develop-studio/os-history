@@ -8,7 +8,7 @@ Web was created to learn HTML, CSS and Bootsrap template framework and study pur
 ```
 [x] Create textation for Windows 3.0 
 [x] Create textation for Windows 95 - https://en.wikipedia.org/wiki/Windows_95
-[] Create textation for Windows 98 - https://en.wikipedia.org/wiki/Windows_98
+[x] Create textation for Windows 98 - https://en.wikipedia.org/wiki/Windows_98
 [x] Create textation for Windows 2000
 [] Create textation for Windows XP - https://en.wikipedia.org/wiki/Windows_XP
 [] Create textation for Windows Vista - https://en.wikipedia.org/wiki/Windows_Vista
