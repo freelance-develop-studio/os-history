@@ -43,6 +43,7 @@
                     making it pointless for other companies to create DOS clones. MS-DOS 7.0 was in development at that time under the code name "Jaguar" and could optionally run on top of a Windows 3.1-based 32-bit protected-mode kernel called "Cougar"
                     in order to better compete with DR-DOS. The first version of Chicago's feature specification was finished on September 30, 1992. Cougar was to become Chicago's kernel.
                 </p>
+                <hr/>
                 <h5>Beta</h5>
                 <p>
                     Prior to Windows 95's official release, users in the United States and United Kingdom had an opportunity to participate in the Windows 95 Preview Program. For US$19.95/£19.95, users would receive several 3.5-inch floppy disks that would be used to install
@@ -64,14 +65,17 @@
                     8086 mode. The virtual device drivers are responsible for handling physical devices (such as video and network cards), emulating virtual devices used by the virtual machines or providing various system services. The three most important
                     virtual device drivers are:
                 </p>
+                <hr/>
                 <h5>Virtual Machine Manager (VMM32.VXD)</h5>
                 <p>
                     Responsible for memory management, event handling, interrupt handling, loading and initializing virtual device drivers, creating new virtual machines and thread scheduling.
                 </p>
+                <hr/>
                 <h5>Configuration Manager (CONFIGMG)</h5>
                 <p>
                     Responsible for implementing Plug and Play functionality; monitoring hardware configuration changes; detecting devices using bus enumerators; and allocating I/O ports, IRQs, DMA channels and memory in a conflict-free fashion.
                 </p>
+                <hr/>
                 <h5>Installable File System Manager (Input/Output Subsystem)</h5>
                 <p>
                     Coordinates access to supported file systems. Windows 95 initially shipped with support for FAT12, FAT16, the VFAT extension, ISO 9660 (CDFS) and network redirectors, with later releases supporting FAT32. Access requests to physical media are sent to
@@ -84,21 +88,22 @@
                     non-exclusive 64 KB segments. While the 64 KB size was a serious handicap in DOS and Windows 3.x, lack of guarantee of exclusiveness was the cause of stability issues because programs sometimes overwrote each other's segments. A crashing
                     Windows 3.x program could knock out surrounding processes.
                 </p>
+                <hr/>
                 <h5>The Win32 API is implemented by three modules, each consisting of a 16-bit and a 32-bit component:
                 </h5>
-                <h6>Kernel</h6>
+                <b>Kernel</b>
                 <p>
                     Provides high level access to memory and process management, and access to the file system. Consists of KRNL386.EXE, KERNEL32.DLL, and VWIN32.VXD.
                 </p>
-                <h6>User</h6>
+                <b>User</b>
                 <p>
                     Responsible for managing and drawing the various user interface components, such as windows, menus and buttons. Consists of USER.EXE and USER32.DLL.
                 </p>
-                <h6>Graphics Device Interface (GDI)</h6>
+                <b>Graphics Device Interface (GDI)</b>
                 <p>
                     Responsible for drawing graphics in a device-independent way. Consists of GDI.EXE and GDI32.DLL.
                 </p>
-                <h5>Dependence on MS-DOS</h5>
+                <b>Dependence on MS-DOS</b>
                 <p>
                     To end-users, MS-DOS appears as an underlying component of Windows 95. For example, it is possible to prevent the loading of the graphical user interface and boot the system into a real-mode MS-DOS environment. This was done by inserting command.com in
                     the autoexec.bat file. This sparked debate amongst users and professionals regarding the extent to which Windows 95 is an operating system or merely a graphical shell running on top of MS-DOS.[13][14][15]
@@ -172,6 +177,7 @@
                 <p>
                     Windows 95 included support for 255-character mixed-case long filenames[21] and preemptively multitasked protected-mode 32-bit applications. 16-bit processes were still co-operatively multitasked.
                 </p>
+                <hr/>
                 <h5>Long file names</h5>
                 <p>
                     32-bit File Access is necessary for the long file names feature introduced with Windows 95 through the use of the VFAT file system extension. It is available to both Windows programs and MS-DOS programs started from Windows (they have to be adapted slightly,
@@ -181,6 +187,7 @@
                     case the need arises to depend on disk utilities that do not recognize long file names, such as the MS-DOS 6.x's defrag utility, a program called LFNBACK for backup and restoration of long file names is provided on the CD-ROM, specifically
                     in its \ADMIN\APPTOOLS\LFNBACK directory.
                 </p>
+                <hr/>
                 <h5>32-bit</h5>
                 <p>
                     Windows 95 followed Windows for Workgroups 3.11 with its lack of support for older, 16-bit x86 processors, thus requiring an Intel 80386 (or compatible). While the OS kernel is 32-bit, much code (especially for the user interface) remained 16-bit for
@@ -225,6 +232,7 @@
                     Windows 95 was superseded by Windows 98 and could still be directly upgraded by either Windows 2000 Professional[28] or Windows Me. Office 2000 is the last version of Microsoft Office to be compatible with Windows 95. Similarly, Windows Media Player 7.1,
                     released in May 2001, and DirectX 8.0a, released in February 2001, are the last versions of Windows Media Player and DirectX available for Windows 95, respectively.
                 </p>
+                <hr/>
                 <h5>Internet Explorer</h5>
                 <p>
                     Windows 95 originally shipped without Internet Explorer, and the default network installation did not install TCP/IP, the network protocol used on the Internet. At the release date of Windows 95, Internet Explorer 1.0 was available,[29] but only in the
@@ -270,6 +278,7 @@
                     Sales were strong, with one million copies shipped worldwide in just four days.[36] According to International Data Corporation, by the end of 1998, Windows 95 was the most used desktop OS with 57.4% of the marketshare, with its successor Windows 98 coming
                     in second at 17.2%. Windows 95 also still sold more non-OEM copies to large customers in the month of May 1999, which analysts attributed to large companies opting to wait for the release of Windows 2000.[37]
                 </p>
+                <hr/>
                 <h5>Editions</h5>
                 <p>
                     "OSR2" redirects here. For the gene, see OSR2 (gene). A number of Windows 95 editions have been released. Only the original release was sold as a shrink-wrapped product; later editions were provided only to computer OEMs for installation on new PCs. For
