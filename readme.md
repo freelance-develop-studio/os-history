@@ -13,7 +13,7 @@ Web was created to learn HTML, CSS and Bootsrap template framework and study pur
 [x] Create textation for Windows XP - https://en.wikipedia.org/wiki/Windows_XP
 [x] Create textation for Windows Vista - https://en.wikipedia.org/wiki/Windows_Vista
 [x] Create textation for Windows 7 - https://en.wikipedia.org/wiki/Windows_7
-[] Create textation for Windows 8 - https://en.wikipedia.org/wiki/Windows_8
+[x] Create textation for Windows 8 - https://en.wikipedia.org/wiki/Windows_8
 [] Create textation for Windows 10 - https://en.wikipedia.org/wiki/Windows_10
 
 [] Create textation for Mac os X Cheetah - https://en.wikipedia.org/wiki/Mac_OS_X_10.0
