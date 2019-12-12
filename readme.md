@@ -24,7 +24,7 @@ Web was created to learn HTML, CSS and Bootsrap template framework and study pur
 [] Create textation for Mac os X Leopard - https://en.wikipedia.org/wiki/Mac_OS_X_Leopard
 [] Create textation for Mac os X Snow leopard - https://en.wikipedia.org/wiki/Mac_OS_X_Snow_Leopard
 
-[] Create textation for Linux - https://en.wikipedia.org/wiki/Linux
+[x] Create textation for Linux - https://en.wikipedia.org/wiki/Linux
 
 [] Find 7 desktop images for operation system and place it to carousel (each operation system) 
   [] Images resize to 1024x768 or 800x600 for old windows (3.0,95,98)

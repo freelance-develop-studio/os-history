@@ -36,4 +36,8 @@ $(document).ready(function() {
     $('#windows10_link').click(function() {
         $('#content').load("../pages/windows/windows10.html")
     });
+
+    $('#linux_link').click(function() {
+        $('#content').load("../pages/linux/linux.html")
+    });
 });
