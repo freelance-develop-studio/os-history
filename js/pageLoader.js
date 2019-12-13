@@ -40,4 +40,9 @@ $(document).ready(function() {
     $('#linux_link').click(function() {
         $('#content').load("../pages/linux/linux.html")
     });
+
+    $('#macOsCheatah_link').click(function() {
+        $('#content').load("../pages/MacOs/macOsCheatah.html")
+    });
+
 });

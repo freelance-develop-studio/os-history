@@ -16,7 +16,7 @@ Web was created to learn HTML, CSS and Bootsrap template framework and study pur
 [x] Create textation for Windows 8 - https://en.wikipedia.org/wiki/Windows_8
 [x] Create textation for Windows 10 - https://en.wikipedia.org/wiki/Windows_10
 
-[] Create textation for Mac os X Cheetah - https://en.wikipedia.org/wiki/Mac_OS_X_10.0
+[x] Create textation for Mac os X Cheetah - https://en.wikipedia.org/wiki/Mac_OS_X_10.0
 [] Create textation for Mac os X Puma - https://en.wikipedia.org/wiki/Mac_OS_X_10.1
 [] Create textation for Mac os X Jaguar - https://en.wikipedia.org/wiki/Mac_OS_X_Jaguar
 [] Create textation for Mac os X Panther - https://en.wikipedia.org/wiki/Mac_OS_X_Panther
