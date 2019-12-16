@@ -26,10 +26,10 @@ Web was created to learn HTML, CSS and Bootsrap template framework and study pur
 
 [x] Create textation for Linux - https://en.wikipedia.org/wiki/Linux
 
-[] Find 7 desktop images for operation system and place it to carousel (each operation system) 
-  [] Images resize to 1024x768 or 800x600 for old windows (3.0,95,98)
+[x] Find 7 desktop images for operation system and place it to carousel (each operation system) 
+  [x] Images resize to 1024x768 or 800x600 for old windows (3.0,95,98)
   
-[] Find videos for each operation system showing desktop environment
+[x] Find videos for each operation system showing desktop environment
 [] Create speak article audio for each operation system
   [] First must filter text and remove citations ([\d])
 ```
