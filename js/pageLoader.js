@@ -42,7 +42,11 @@ $(document).ready(function() {
     });
 
     $('#macOsCheatah_link').click(function() {
-        $('#content').load("../pages/MacOs/macOsCheatah.html")
+        $('#content').load("../pages/MacOs/macOsCheetah.html")
+    });
+
+    $('#macOsPuma_link').click(function() {
+        $('#content').load("../pages/MacOs/macOsPuma.html")
     });
 
 });
