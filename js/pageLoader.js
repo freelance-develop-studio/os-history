@@ -49,4 +49,23 @@ $(document).ready(function() {
         $('#content').load("../pages/MacOs/macOsPuma.html")
     });
 
+    $('#macOsJaguar_link').click(function() {
+        $('#content').load("../pages/MacOs/macOsJaguar.html")
+    });
+
+    $('#macOsPanther_link').click(function() {
+        $('#content').load("../pages/MacOs/macOsPanther.html")
+    });
+
+    $('#macOsTiger_link').click(function() {
+        $('#content').load("../pages/MacOs/macOsTiger.html")
+    });
+
+    $('#macOsLeopard_link').click(function() {
+        $('#content').load("../pages/MacOs/macOsLeopard.html")
+    });
+
+    $('#macOsSnowLeopard_link').click(function() {
+        $('#content').load("../pages/MacOs/macOsSnowLeopard.html")
+    });
 });
