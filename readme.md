@@ -18,18 +18,18 @@ Web was created to learn HTML, CSS and Bootsrap template framework and study pur
 
 [x] Create textation for Mac os X Cheetah - https://en.wikipedia.org/wiki/Mac_OS_X_10.0
 [x] Create textation for Mac os X Puma - https://en.wikipedia.org/wiki/Mac_OS_X_10.1
-[] Create textation for Mac os X Jaguar - https://en.wikipedia.org/wiki/Mac_OS_X_Jaguar
-[] Create textation for Mac os X Panther - https://en.wikipedia.org/wiki/Mac_OS_X_Panther
-[] Create textation for Mac os X Tiger - https://en.wikipedia.org/wiki/Mac_OS_X_Tiger
-[] Create textation for Mac os X Leopard - https://en.wikipedia.org/wiki/Mac_OS_X_Leopard
-[] Create textation for Mac os X Snow leopard - https://en.wikipedia.org/wiki/Mac_OS_X_Snow_Leopard
+[x] Create textation for Mac os X Jaguar - https://en.wikipedia.org/wiki/Mac_OS_X_Jaguar
+[x] Create textation for Mac os X Panther - https://en.wikipedia.org/wiki/Mac_OS_X_Panther
+[x] Create textation for Mac os X Tiger - https://en.wikipedia.org/wiki/Mac_OS_X_Tiger
+[x] Create textation for Mac os X Leopard - https://en.wikipedia.org/wiki/Mac_OS_X_Leopard
+[x] Create textation for Mac os X Snow leopard - https://en.wikipedia.org/wiki/Mac_OS_X_Snow_Leopard
 
 [x] Create textation for Linux - https://en.wikipedia.org/wiki/Linux
 
-[x] Find 7 desktop images for operation system and place it to carousel (each operation system) 
+[ ] Find 7 desktop images for operation system and place it to carousel (each operation system) 
   [x] Images resize to 1024x768 or 800x600 for old windows (3.0,95,98)
   
-[x] Find videos for each operation system showing desktop environment
+[ ] Find videos for each operation system showing desktop environment
 [] Create speak article audio for each operation system
   [] First must filter text and remove citations ([\d])
 ```
