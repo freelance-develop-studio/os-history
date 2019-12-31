@@ -10,7 +10,7 @@ function loadPage(pageName) {
             $('#content').load("../pages/windows/windows98.html");
             break;
         case "windows2000":
-            $('#content').load("/pages/windows/windows2000.html", function(responseTxt, statusTxt, xhr){
+            $('#content').load("pages/windows/windows2000.html", function(responseTxt, statusTxt, xhr){
                 if(statusTxt == "success")
                     console.log("External content loaded successfully!");
                 if(statusTxt == "error")
