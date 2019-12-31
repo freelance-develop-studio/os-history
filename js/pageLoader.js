@@ -11,13 +11,11 @@ function loadPage(pageName) {
             break;
         case "windows2000":
             $('#content').load("../pages/windows/windows2000.html", function(responseTxt, statusTxt, xhr){
-      if(statusTxt == "success")
-        alert("External content loaded successfully!");
-      if(statusTxt == "error")
-        alert("Error: " + xhr.status + ": " + xhr.statusText);
-    });
-  });
-});
+                if(statusTxt == "success")
+                    alert("External content loaded successfully!");
+                if(statusTxt == "error")
+                    alert("Error: " + xhr.status + ": " + xhr.statusText);
+            });
             break;
         case "windowsXP":
             $('#content').load("../pages/windows/windowsXP.html");
