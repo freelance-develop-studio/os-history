@@ -10,12 +10,14 @@ function loadPage(pageName) {
             $('#content').load("../pages/windows/windows98.html");
             break;
         case "windows2000":
-            $('#content').load("../pages/windows/windows2000.html", function( response, status, xhr ) {
-                if ( status == "error" ) {
-                    var msg = "Sorry but there was an error: ";
-                    $( "#error" ).html( msg + xhr.status + " " + xhr.statusText );
-                }
-            });
+            $('#content').load("../pages/windows/windows2000.html", function(responseTxt, statusTxt, xhr){
+      if(statusTxt == "success")
+        alert("External content loaded successfully!");
+      if(statusTxt == "error")
+        alert("Error: " + xhr.status + ": " + xhr.statusText);
+    });
+  });
+});
             break;
         case "windowsXP":
             $('#content').load("../pages/windows/windowsXP.html");
