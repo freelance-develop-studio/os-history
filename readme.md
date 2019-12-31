@@ -30,8 +30,10 @@ Web was created to learn HTML, CSS and Bootsrap template framework and study pur
   [x] Images resize to 1024x768 or 800x600 for old windows (3.0,95,98)
   
 [ ] Find videos for each operation system showing desktop environment
-[] Create speak article audio for each operation system
-  [] First must filter text and remove citations ([\d])
+[x] Create speak article audio for each operation system
+  [x] First must filter text and remove citations ([\d])
+
+[] Implemented search page
 ```
 
 
