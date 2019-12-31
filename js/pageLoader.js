@@ -10,11 +10,11 @@ function loadPage(pageName) {
             $('#content').load("../pages/windows/windows98.html");
             break;
         case "windows2000":
-            $('#content').load("https://raw.githubusercontent.com/JiriCagis/os-history.github.io/master/pages/windows/windows2000.html", function(responseTxt, statusTxt, xhr){
+            $('#content').load("/pages/windows/windows2000.html", function(responseTxt, statusTxt, xhr){
                 if(statusTxt == "success")
-                    alert("External content loaded successfully!");
+                    console.log("External content loaded successfully!");
                 if(statusTxt == "error")
-                    alert("Error: " + xhr.status + ": " + xhr.statusText);
+                    console.log("Error: " + xhr.status + ": " + xhr.statusText);
             });
             break;
         case "windowsXP":
