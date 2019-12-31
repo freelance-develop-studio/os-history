@@ -7,11 +7,6 @@
     <link rel="stylesheet" href="css/bootstrap-grid.css" />
     <link rel="stylesheet" href="css/bootstrap-reboot.css" />
     <link rel="stylesheet" href="css/styles.css" />
-
-    <script src="js/jquery-3.4.1.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/bootstrap.bundle.js"></script>
-    <script src="js/pageLoader.js"></script>
 </head>
 
 <body>
@@ -30,15 +25,15 @@
                         Windows
                     </a>
                     <div class="dropdown-menu" aria-labelledby="dropdown01">
-                        <a id="windows3_link" class="dropdown-item" href="#">Windows 3.0</a>
-                        <a id="windows95_link" class="dropdown-item" href="#">Windows 95</a>
-                        <a id="windows98_link" class="dropdown-item" href="#">Windows 98</a>
-                        <a id="windows2000_link" class="dropdown-item" href="#">Windows 2000</a>
-                        <a id="windowsXP_link" class="dropdown-item" href="#">Windows XP</a>
-                        <a id="windowsVista_link" class="dropdown-item" href="#">Windows Vista</a>
-                        <a id="windows7_link" class="dropdown-item" href="#">Windows 7</a>
-                        <a id="windows8_link" class="dropdown-item" href="#">Windows 8</a>
-                        <a id="windows10_link" class="dropdown-item" href="#">Windows 10</a>
+                        <a class="dropdown-item" href="#" onclick="loadPage('windows3')">Windows 3.0</a>
+                        <a class="dropdown-item" href="#" onclick="loadPage('windows95')">Windows 95</a>
+                        <a class="dropdown-item" href="#" onclick="loadPage('windows98')">Windows 98</a>
+                        <a class="dropdown-item" href="#" onclick="loadPage('windows2000')">Windows 2000</a>
+                        <a class="dropdown-item" href="#" onclick="loadPage('windowsXP')">Windows XP</a>
+                        <a class="dropdown-item" href="#" onclick="loadPage('windowsVista')">Windows Vista</a>
+                        <a class="dropdown-item" href="#" onclick="loadPage('windows7')">Windows 7</a>
+                        <a class="dropdown-item" href="#" onclick="loadPage('windows8')">Windows 8</a>
+                        <a class="dropdown-item" href="#" onclick="loadPage('windows10')">Windows 10</a>
                     </div>
                 </li>
                 <li class="navbar-item dropdown">
@@ -46,24 +41,24 @@
                         Mac OS
                     </a>
                     <div class="dropdown-menu" aria-labelledby="dropdown01">
-                        <a id="macOsCheatah_link" class="dropdown-item" href="#">Mac Os Cheatah</a>
-                        <a id="macOsPuma_link" class="dropdown-item" href="#">Mac Os Puma</a>
-                        <a id="macOsJaguar_link" class="dropdown-item" href="#">Mac Os Jaguar</a>
-                        <a id="macOsPanther_link" class="dropdown-item" href="#">Mac Os Panther</a>
-                        <a id="macOsTiger_link" class="dropdown-item" href="#">Mac Os Tiger</a>
-                        <a id="macOsLeopard_link" class="dropdown-item" href="#">Mac Os Leopard</a>
-                        <a id="macOsSnowLeopard_link" class="dropdown-item" href="#">Mac Os Snow Leopard</a>
+                        <a class="dropdown-item" href="#" onclick="loadPage('macOsCheetah')">Mac Os Cheatah</a>
+                        <a class="dropdown-item" href="#" onclick="loadPage('macOsPuma')">Mac Os Puma</a>
+                        <a class="dropdown-item" href="#" onclick="loadPage('macOsJaguar')">Mac Os Jaguar</a>
+                        <a class="dropdown-item" href="#" onclick="loadPage('macOsPanther')">Mac Os Panther</a>
+                        <a class="dropdown-item" href="#" onclick="loadPage('macOsTiger')">Mac Os Tiger</a>
+                        <a class="dropdown-item" href="#" onclick="loadPage('macOsLeopard')">Mac Os Leopard</a>
+                        <a class="dropdown-item" href="#" onclick="loadPage('macOsSnowLeopard')">Mac Os Snow Leopard</a>
                     </div>
                 </li>
                 <li class="navbar-item">
-                    <a id="linux_link" class="nav-link" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick="loadPage('linux')">
                         Linux
                     </a>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                <input id="search_input" class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                <button id="search_link" class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
             </form>
         </div>
     </nav>
@@ -80,6 +75,12 @@
         </div>
         <!-- Copyright -->
     </footer>
+
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/pageLoader.js"></script>
+    <script src="js/pageFinder.js"></script>
 
 </body>
 
